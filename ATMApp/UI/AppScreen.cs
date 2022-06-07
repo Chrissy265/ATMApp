@@ -11,6 +11,8 @@ namespace ATMApp.UI
     {
         internal static void Welcome()
         {
+            //ATM app needs a UI screen 
+
             //clears the console screen
             Console.Clear();
             //sets the title of the console window

@@ -9,7 +9,8 @@ namespace ATMApp
 {
     public class ATMApp : IUserLogin
     {
-        private List<UserAccount> userAccountList;
+        //  This is the section for declaring variables 
+        private List<UserAccount> userAccountList; 
         private UserAccount selectedAccount;
 
         public void InitializeData() //intialize user account information 

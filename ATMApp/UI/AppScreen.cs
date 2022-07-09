@@ -11,7 +11,14 @@ namespace ATMApp.UI
     {
         internal static void Welcome()
         {
-            //clears the console screen
+            //clears the console screen 
+            //Here is my todo list  
+
+            /*   
+             *   Multiple lines of comments   
+
+            */
+
             Console.Clear();
             //sets the title of the console window
             Console.Title = "My ATM App";

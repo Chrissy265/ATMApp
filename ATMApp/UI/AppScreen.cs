@@ -12,19 +12,15 @@ namespace ATMApp.UI
         internal static void Welcome()
         {
             //clears the console screen 
-            //Here is my todo list  
-
-            /*   
-             *   Multiple lines of comments   
-
-            */
-
+            
             Console.Clear();
             //sets the title of the console window
-            Console.Title = "My ATM App";
-            //sets the text color or foreground color to white
-            Console.ForegroundColor = ConsoleColor.White;
 
+            Console.Title = "Bitcoin ATM App"; 
+            //sets the text color or foreground color to white
+            Console.ForegroundColor = ConsoleColor.White; 
+            
+           
             //set the welcome message 
             Console.WriteLine("\n\n-----------------Welcome to My ATM App-----------------\n\n");
             //prompt the user to insert atm card
@@ -34,7 +30,7 @@ namespace ATMApp.UI
             Utility.PressEnterToContinue();
         }
 
-        internal static UserAccount  UserLoginForm()
+        internal static UserAccount UserLoginForm()
         {
             UserAccount tempUserAccount = new UserAccount();
 
@@ -47,7 +43,7 @@ namespace ATMApp.UI
         {
             Console.WriteLine("\nChecking card number and PIN...");
             Utility.PrintDotAnimation();
-        } 
+        }
 
         internal static void PrintLockScreen()
         {

@@ -13,6 +13,9 @@ namespace ATMApp
         private List<UserAccount> userAccountList; 
         private UserAccount selectedAccount;
 
+
+
+
         public void InitializeData() //intialize user account information 
         {
             userAccountList = new List<UserAccount>
@@ -23,7 +26,16 @@ namespace ATMApp
             };
         }
 
-        //This is a module, this fumction focus on a specific task
+        //This is all the functions we need to call to run the atm app  
+
+
+
+
+
+
+
+
+        //This is a module, this function focus on a specific task
         public void CheckUserCardNumAndPassword()
         {
             bool isCorrectLogin = false;

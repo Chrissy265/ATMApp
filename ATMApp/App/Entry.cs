@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ATMApp.App
 {
-    class Entry
+    class Entry  //Starting point of the program 
     {
         static void Main(string[] args)
         {
